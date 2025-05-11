@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kent Steps Online Store - Fashion Boutique</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Social Media Links -->
+    <div class="floating-social">
+        <a href="https://wa.me/2567081076043" class="whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="#" class="instagram" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="tiktok" target="_blank">
+            <i class="fab fa-tiktok"></i>
+        </a>
+    </div>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo/logo.png" alt="Kent Steps Logo">
+                <p>ONLINE STORE</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shoes">Shoes</a></li>
+                    <li><a href="#clothing">Clothing</a></li>
+                    <li><a href="#bags">Bags</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shoes">Shoes</a></li>
+            <li><a href="#clothing">Clothing</a></li>
+            <li><a href="#bags">Bags</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="close-menu">
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h2>Welcome to Kent Steps Online Store</h2>
+            <p>Your premier destination for fashionable shoes, clothing, and bags</p>
+            <div class="cta-buttons">
+                <a href="#shoes" class="btn">Browse Shoes</a>
+                <a href="#clothing" class="btn">Browse Clothing</a>
+                <a href="#bags" class="btn">Browse Bags</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shoes Section -->
+    <section class="products" id="shoes">
+        <div class="container">
+            <h2 class="section-title">Shoes Collection</h2>
+            <div class="product-grid">
+                <!-- Product items will be added dynamically by JavaScript -->
+            </div>
+            <div class="view-more">
+                <a href="shoes.html" class="btn">View More Shoes</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clothing Section -->
+    <section class="products" id="clothing">
+        <div class="container">
+            <h2 class="section-title">Clothing Collection</h2>
+            <div class="product-grid">
+                <!-- Product items will be added dynamically by JavaScript -->
+            </div>
+            <div class="view-more">
+                <a href="clothing.html" class="btn">View More Clothing</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bags Section -->
+    <section class="products" id="bags">
+        <div class="container">
+            <h2 class="section-title">Bags Collection</h2>
+            <div class="product-grid">
+                <!-- Product items will be added dynamically by JavaScript -->
+            </div>
+            <div class="view-more">
+                <a href="bags.html" class="btn">View More Bags</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">About Kent Steps</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Kent Steps Online Store is your premier fashion boutique located at Kabaale Arcade, Nabugabo Street, KA Zero One Investment. We offer the latest trends in shoes, clothing, and bags to keep you looking stylish.</p>
+                    <p>Our mission is to provide high-quality fashion items at affordable prices with excellent customer service.</p>
+                </div>
+                <div class="about-image">
+                    <img src="logo/hero-bg.jpg" alt="Kent Steps Store">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Kabaale Arcade, Nabugabo Street, Ka01 basement</p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:2567081076043">256708176043</a></p>
+                    <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/256708176043">256708176043</a></p>
+                    
+                    <div class="social-links">
+                        <a href="https://wa.me/2567081076043" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="inquiryForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Your Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kent Steps</h3>
+                    <p>Your premier fashion destination for shoes, clothing, and bags.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#shoes">Shoes</a></li>
+                        <li><a href="#clothing">Clothing</a></li>
+                        <li><a href="#bags">Bags</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Kabaale Arcade, Nabugabo Street</p>
+                    <p><i class="fas fa-phone"></i> 256708176043</p>
+                    <p><i class="fab fa-whatsapp"></i> 256708176043</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Kent Steps Online Store. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
